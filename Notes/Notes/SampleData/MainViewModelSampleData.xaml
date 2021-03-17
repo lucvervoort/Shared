@@ -1,0 +1,89 @@
+﻿<Notes_ViewModel:MainViewModel xmlns:Notes_ViewModel="clr-namespace:Notes.ViewModel" xmlns:Notes_Model="clr-namespace:Notes.Model" xmlns:System="clr-namespace:System;assembly=mscorlib" xmlns:GalaSoft_MvvmLight_Command="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.WPF4" IsInDesignMode="True" IsInDesignModeStatic="False">
+	<Notes_ViewModel:MainViewModel.ActualNote>
+		<Notes_Model:Note Content="Duis adipiscing parturient aenean" Date="Consequat quisque maecenas">
+			<Notes_Model:Note.Category>
+				<Notes_Model:Category BackgroundColor="Class cras" FontColor="#FFFFFFFF" Name="Integer phasellus vestibulum nam">
+					<Notes_Model:Category.Id>
+						<System:Guid/>
+					</Notes_Model:Category.Id>
+				</Notes_Model:Category>
+			</Notes_Model:Note.Category>
+		</Notes_Model:Note>
+	</Notes_ViewModel:MainViewModel.ActualNote>
+	<Notes_ViewModel:MainViewModel.AddNoteCommand>
+		<GalaSoft_MvvmLight_Command:RelayCommand/>
+	</Notes_ViewModel:MainViewModel.AddNoteCommand>
+	<Notes_ViewModel:MainViewModel.CategoryOptionsCommand>
+		<GalaSoft_MvvmLight_Command:RelayCommand/>
+	</Notes_ViewModel:MainViewModel.CategoryOptionsCommand>
+	<Notes_ViewModel:MainViewModel.Categories>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FFFFFFFF" Name="Sed curae convallis donec">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FFFFFFFF" Name="Dis ante vestibulum">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FFFFFFFF" Name="Fringilla arcu eleifend">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FFFFFFFF" Name="Est hendrerit">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+	</Notes_ViewModel:MainViewModel.Categories>
+	<Notes_ViewModel:MainViewModel.DeleteAllNotesCommand>
+		<GalaSoft_MvvmLight_Command:RelayCommand/>
+	</Notes_ViewModel:MainViewModel.DeleteAllNotesCommand>
+	<Notes_ViewModel:MainViewModel.Notes>
+		<Notes_Model:Note Content="Luctus nisl sed dis" Date="02/22/2010">
+			<Notes_Model:Note.Category>
+				<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FFFFFFFF" Name="Phasellus consequat">
+					<Notes_Model:Category.Id>
+						<System:Guid/>
+					</Notes_Model:Category.Id>
+				</Notes_Model:Category>
+			</Notes_Model:Note.Category>
+		</Notes_Model:Note>
+		<Notes_Model:Note Content="Magna volutpat dignissim" Date="02/22/2010">
+			<Notes_Model:Note.Category>
+				<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FFFFFFFF" Name="Laoreet vehicula">
+					<Notes_Model:Category.Id>
+						<System:Guid/>
+					</Notes_Model:Category.Id>
+				</Notes_Model:Category>
+			</Notes_Model:Note.Category>
+		</Notes_Model:Note>
+		<Notes_Model:Note Content="Facilisis mollis pede" Date="02/22/2010">
+			<Notes_Model:Note.Category>
+				<Notes_Model:Category BackgroundColor="#FF84EEAA" FontColor="#FFFFFFFF" Name="Bibendum mattis mauris">
+					<Notes_Model:Category.Id>
+						<System:Guid/>
+					</Notes_Model:Category.Id>
+				</Notes_Model:Category>
+			</Notes_Model:Note.Category>
+		</Notes_Model:Note>
+		<Notes_Model:Note Content="Nostra facilisi massa" Date="02/22/2010">
+			<Notes_Model:Note.Category>
+				<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FFFFFFFF" Name="Fringilla urna cras">
+					<Notes_Model:Category.Id>
+						<System:Guid/>
+					</Notes_Model:Category.Id>
+				</Notes_Model:Category>
+			</Notes_Model:Note.Category>
+		</Notes_Model:Note>
+	</Notes_ViewModel:MainViewModel.Notes>
+	<Notes_ViewModel:MainViewModel.SelectedCategory>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FFFFFFFF" Name="Phasellus mauris consequat">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+	</Notes_ViewModel:MainViewModel.SelectedCategory>
+</Notes_ViewModel:MainViewModel>

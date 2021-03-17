@@ -1,0 +1,82 @@
+﻿<Notes_ViewModel:CategoryEditorViewModel xmlns:Notes_ViewModel="clr-namespace:Notes.ViewModel" xmlns:GalaSoft_MvvmLight_Command="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.WPF4" xmlns:System="clr-namespace:System;assembly=mscorlib" xmlns:Notes_Model="clr-namespace:Notes.Model" DeleteNotesToo="True" IsInDesignMode="False" IsInDesignModeStatic="True" IsValid="False" OnCategoryUpdate="True">
+	<Notes_ViewModel:CategoryEditorViewModel.AcceptCategoryCommand>
+		<GalaSoft_MvvmLight_Command:RelayCommand/>
+	</Notes_ViewModel:CategoryEditorViewModel.AcceptCategoryCommand>
+	<Notes_ViewModel:CategoryEditorViewModel.CategoryIds>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+	</Notes_ViewModel:CategoryEditorViewModel.CategoryIds>
+	<Notes_ViewModel:CategoryEditorViewModel.Categories>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FF110000" Name="Aenean vestibulum">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FF110000" Name="Mauris quisque adipiscing nullam amet">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FF110000" Name="Vestibulum aptent vivamus nam curae">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FF110000" Name="Aliquam aliquet enim lorem">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+	</Notes_ViewModel:CategoryEditorViewModel.Categories>
+	<Notes_ViewModel:CategoryEditorViewModel.CategoryBeenSelected>
+		<GalaSoft_MvvmLight_Command:RelayCommand/>
+	</Notes_ViewModel:CategoryEditorViewModel.CategoryBeenSelected>
+	<Notes_ViewModel:CategoryEditorViewModel.NotesToTrash>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+	</Notes_ViewModel:CategoryEditorViewModel.NotesToTrash>
+	<Notes_ViewModel:CategoryEditorViewModel.NotesToDelete>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+		<System:Guid/>
+	</Notes_ViewModel:CategoryEditorViewModel.NotesToDelete>
+	<Notes_ViewModel:CategoryEditorViewModel.NewCategoryCommand>
+		<GalaSoft_MvvmLight_Command:RelayCommand/>
+	</Notes_ViewModel:CategoryEditorViewModel.NewCategoryCommand>
+	<Notes_ViewModel:CategoryEditorViewModel.SelectFontColorCommand>
+		<GalaSoft_MvvmLight_Command:RelayCommand/>
+	</Notes_ViewModel:CategoryEditorViewModel.SelectFontColorCommand>
+	<Notes_ViewModel:CategoryEditorViewModel.SelectedCategory>
+		<Notes_Model:Category BackgroundColor="#FF110000" FontColor="#FFFFFFFF" Name="Suscipit adipiscing magna">
+			<Notes_Model:Category.Id>
+				<System:Guid/>
+			</Notes_Model:Category.Id>
+		</Notes_Model:Category>
+	</Notes_ViewModel:CategoryEditorViewModel.SelectedCategory>
+	<Notes_ViewModel:CategoryEditorViewModel.SelectBgColorCommand>
+		<GalaSoft_MvvmLight_Command:RelayCommand/>
+	</Notes_ViewModel:CategoryEditorViewModel.SelectBgColorCommand>
+</Notes_ViewModel:CategoryEditorViewModel>
